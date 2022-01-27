@@ -181,6 +181,10 @@ bowser@^1.6.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.6.1.tgz#9157e9498f456e937173a2918f3b2161e5353eb3"
 
+bowser@^1.7.3:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.4.tgz#890c58a2813a9d3243704334fa81b96a5c150c9a"
+
 boxen@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.0.0.tgz#b2694baf1f605f708ff0177c12193b22f29aaaab"
@@ -352,8 +356,8 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
 cached-path-relative@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/cached-path-relative/-/cached-path-relative-1.0.1.tgz#d09c4b52800aa4c078e2dd81a869aac90d2e54e7"
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cached-path-relative/-/cached-path-relative-1.1.0.tgz#865576dfef39c0d6a7defde794d078f5308e3ef3"
 
 camelcase-css@^1.0.1:
   version "1.0.1"
@@ -593,6 +597,13 @@ css-in-js-utils@^1.0.3:
   resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-1.0.3.tgz#9ac7e02f763cf85d94017666565ed68a5b5f3215"
   dependencies:
     hyphenate-style-name "^1.0.2"
+
+css-in-js-utils@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz#3b472b398787291b47cfe3e44fecfdd9e914ba99"
+  dependencies:
+    hyphenate-style-name "^1.0.2"
+    isobject "^3.0.1"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -1038,6 +1049,13 @@ inline-style-prefixer@^3.0.1:
     bowser "^1.6.0"
     css-in-js-utils "^1.0.3"
 
+inline-style-prefixer@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-4.0.2.tgz#d390957d26f281255fe101da863158ac6eb60911"
+  dependencies:
+    bowser "^1.7.3"
+    css-in-js-utils "^2.0.0"
+
 insert-module-globals@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/insert-module-globals/-/insert-module-globals-7.0.1.tgz#c03bf4e01cb086d5b5e5ace8ad0afe7889d638c3"
@@ -1128,6 +1146,10 @@ isarray@~0.0.1:
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
+
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
 isomorphic-fetch@^2.1.1:
   version "2.2.1"
@@ -1267,9 +1289,10 @@ lexical-scope@^1.2.0:
   dependencies:
     astw "^2.0.0"
 
-"lighthouse@github:paulirish/lighthouse#c74ea959":
+lighthouse@paulirish/lighthouse#c74ea959:
   version "1.6.0"
-  resolved "https://codeload.github.com/paulirish/lighthouse/tar.gz/c74ea959"
+  uid c74ea959dd7f7c4f5ab2dfe5644dc24ed8cd6e6c
+  resolved "https://codeload.github.com/paulirish/lighthouse/tar.gz/c74ea959dd7f7c4f5ab2dfe5644dc24ed8cd6e6c"
   dependencies:
     axe-core "2.1.7"
     chrome-devtools-frontend "1.0.422034"
@@ -2063,6 +2086,28 @@ strip-indent@^1.0.1:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+
+styletron-client@^3.0.0-rc.1:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/styletron-client/-/styletron-client-3.0.4.tgz#50c3fcdc7f45ed0693d68dc174bd0f2fa607cc57"
+  dependencies:
+    styletron-core "^3.0.4"
+
+styletron-core@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/styletron-core/-/styletron-core-3.0.4.tgz#648081572a8de30acbe3008cd283c421565444bb"
+
+styletron-server@^3.0.0-rc.1:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/styletron-server/-/styletron-server-3.0.4.tgz#6bf24643b2ce84198d0fcb7c27308f00880c8dfd"
+  dependencies:
+    styletron-core "^3.0.4"
+
+styletron-utils@^3.0.0-rc.1:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/styletron-utils/-/styletron-utils-3.0.4.tgz#6696320f6ade52383006c4d47e72c5c6a1f37b15"
+  dependencies:
+    inline-style-prefixer "^4.0.0"
 
 subarg@^1.0.0:
   version "1.0.0"
