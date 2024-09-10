@@ -18,7 +18,7 @@
   "dependencies": {
     "compression": "^1.6.2",
     "connect": "^3.4.1",
-    "serve-static": "^1.11.1",
+    "serve-static": "^1.16.0",
     "styletron-client": "^3.0.0-rc.1",
     "styletron-react": "^3.0.0-rc.1",
     "styletron-server": "^3.0.0-rc.1",
